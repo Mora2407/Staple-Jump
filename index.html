@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="./staple.png">
+	<title>Staple Jump</title>
+</head>
+<body>
+	<div class="container" onkeydown="key(event)" tabindex="0">
+		<!-- <div class="menu" hidden></div> -->
+		<div class="game">
+			<div class="top">
+				<div class="player1">Player 2</div>
+			</div>
+			<div class="l">
+				<div class="left">
+					<div class="number" id="n0"></div>
+					<div class="number" id="n1"></div>
+					<div class="number" id="n2"></div>
+					<div class="number" id="n3"></div>
+					<div class="number" id="n4"></div>
+					<div class="number" id="n5"></div>
+				</div>
+				<div class="board">
+			            <div class="a">
+			            	<div class="dark" id="21" name="a6" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="17" name="a5" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="13" name="a4" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="9" name="a3" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="5" name="a2" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="1" name="a1" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            </div>
+			            <div class="b">
+			            	<div class="light" id="22" name="b6" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="18" name="b5" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="14" name="b4" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="10" name="b3" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="6" name="b2" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="2" name="b1" onclick="move(event)" oncontextmenu="target(event)"></div>	
+			            </div>
+			            <div class="c">
+			            	<div class="dark" id="23" name="c6" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="19" name="c5" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="15" name="c4" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="11" name="c3" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="7" name="c2" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="3" name="c1" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            </div>
+			            <div class="d">
+			           		<div class="light" id="24" name="d6" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="20" name="d5" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="16" name="d4" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="12" name="d3" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="light" id="8" name="d2" onclick="move(event)" oncontextmenu="target(event)"></div>
+			            	<div class="dark" id="4" name="d1" onclick="move(event)" oncontextmenu="target(event)"></div> 
+			            </div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="let">
+					<div class="letter" id="l0"></div>
+					<div class="letter" id="l1"></div>
+					<div class="letter" id="l2"></div>
+					<div class="letter" id="l3"></div>
+				</div>
+				<div class="p">
+					<div class="player0">Player 1</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="analysis" hidden></div> -->
+	</div>
+	<div class="staple1" hidden></div>
+	<div class="staple2" hidden></div>
+	<div class="dot" hidden></div>
+</body>
+<script type="text/javascript" src="script.js" defer></script>
+</html>

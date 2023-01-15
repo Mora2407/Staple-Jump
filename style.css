@@ -1,0 +1,183 @@
+body {
+    overflow: hidden;
+    background-color: slategray;
+}
+
+.container {
+    outline: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: gray;
+    padding: 0px;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+
+.analysis {
+    background-color: gray;
+    padding: 0px;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.game {
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 650px;
+    width: 435px;
+    display: grid;
+}
+
+.top {
+    font-family: "Arial";
+    margin-left: 20px;
+    height: 25px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l {
+    height: 600px;
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.left {
+    width: 15px;
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    padding-right: 0px;
+}
+
+.number {
+    font-family: "Lucida Console";
+    width: 15px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    height: 50px;
+    width: 500px;
+    margin-left: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.let {
+    height: 1px;
+    width: 500px;
+    display: flex;
+    align-items: top;
+    justify-content: flex-start; 
+}
+
+.p {
+    font-family: "Arial";
+    height: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter {
+    font-family: "Lucida Console";
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    background-color: white;
+    padding: 0px;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.light {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+.dark {
+    background-color: forestgreen;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+
+}
+
+.staple1 {
+    z-index: 2;
+    background: url('sprite1.png') 0 0;
+    height: 100px;
+    width: 100px;
+}
+
+.staple2 {
+    z-index: 2;
+    background: url('sprite1.png') 0 0;
+    transform: rotate(180deg);
+    height: 100px;
+    width: 100px;
+}
+
+.dot {
+    z-index: 3;
+    background: url('sprite2.png') 0 0;
+    height: 100px;
+    width: 100px;
+}
+
+.player0 {
+    background-color: white;
+    border: 1px solid black;
+    height: 20px;
+    width: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player1 {
+    background-color: white;
+    border: 1px solid black;
+    height: 20px;
+    width: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
